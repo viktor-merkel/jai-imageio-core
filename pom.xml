@@ -6,7 +6,7 @@
   </prerequisites>
   <groupId>com.github.jai-imageio</groupId>
   <artifactId>jai-imageio-core</artifactId>
-  <version>1.4.1-SNAPSHOT</version>
+  <version>1.4.1-dm-1</version>
   <packaging>bundle</packaging>
   <name>Java Advanced Imaging Image I/O Tools API core (standalone)</name>
   <description>
@@ -319,9 +319,8 @@
 
   <distributionManagement>
     <repository>
-      <id>bintray-jai-imageio-maven-jai-imageio-core-standalone</id>
-      <name>jai-imageio-maven-jai-imageio-core-standalone</name>
-      <url>https://api.bintray.com/maven/jai-imageio/maven/jai-imageio-core-standalone</url>
+    <id>hydmedia-thirdparty</id>
+    <url>https://repo-nexus-rot.orbis.dedalus.com/nexus/repository/hydmedia-thirdparties</url>
     </repository>
   </distributionManagement>
 
